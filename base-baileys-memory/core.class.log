@@ -1,0 +1,1311 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002412612@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0154EFD88E6FD67D932',
+    participant: undefined
+  },
+  messageTimestamp: 1747464293,
+  pushName: 'Jesús Resucito',
+  broadcast: false,
+  message: Message {
+    conversation: 'pedir',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'pedir',
+  from: '573002412612'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b87c3b82-3506-4017-803f-20f7bdc81288',
+  keyword: 'key_f1492408-e954-4797-9f95-5e30dd6ddcee',
+  answer: 'Elige una de estas opciones:\r\n' +
+    'si ya sabes que elegir elige desde la opcion 2 hasta la 4 y si tienes alguna duda del pedido puedes presionar 5\r\n' +
+    '\r\n' +
+    'opcion 1 - menu\r\n' +
+    'opcion 2 para pedir: hamburguesa\r\n' +
+    'opcion 3 para pedor: arepa rellena\r\n' +
+    'opcion 4 para pedir: asado\r\n' +
+    'opcion 5 - pregunta\r\n' +
+    'opcion 0 - salir',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '07353cc6c18729338c6a2aa69c849c76'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002412612@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0F99522262EBD35B21F',
+    participant: undefined
+  },
+  messageTimestamp: 1747464299,
+  pushName: 'Jesús Resucito',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '2',
+  from: '573002412612'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002412612@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0F8C73DA6F341F20DF5',
+    participant: undefined
+  },
+  messageTimestamp: 1747464304,
+  pushName: 'Jesús Resucito',
+  broadcast: false,
+  message: Message {
+    conversation: 'si',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'si',
+  from: '573002412612'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9dd148a0-153d-4a31-86d2-53209742adde',
+  keyword: 'key_410abad4-f149-4277-8757-e70ded49d6c0',
+  answer: '🙌 Hola bienvenido a este restaurante llamado *fastfood* mi nombre es michell estoy diseñada para procesar tu pedido si hay algun error puedes presionar el boton de comunicar con un trabajador',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '644cb6b0277ae4f9763ca3a589bb5740'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f48961dc-a274-41c4-8eec-37d2ac866341',
+  keyword: 'ans_9dd148a0-153d-4a31-86d2-53209742adde',
+  answer: '🍔 ¿Que deseas comer?, todos los domicilios cuestan 3 dolares dentro de la zona urbana',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '672e59dd959f5ed1f2a49579886ff841'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_240fa7f9-17aa-4905-8056-f0cb3cf82b9b',
+  keyword: 'ans_f48961dc-a274-41c4-8eec-37d2ac866341',
+  answer: '👉 *hamburguesa*: Deliciosa hamburguesa con papas fritas y gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'dcf99dbb240c9742c9a340b6319e96ef'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_171881d6-9d20-4002-82b0-b9314a041e10',
+  keyword: 'ans_240fa7f9-17aa-4905-8056-f0cb3cf82b9b',
+  answer: '👉 *arepa rellena*:  deliciosa arepa rellena de pollo y carne con queso mas gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '52b70655666e99750868bd8afc2598fb'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_49ed8eaa-d13f-4673-9b4c-d728c23c3f76',
+  keyword: 'ans_171881d6-9d20-4002-82b0-b9314a041e10',
+  answer: '👉 *asado*: Delicioso asado de carne de res con papas a la francesa con una gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '70ce2283ab28f89d9a5b2d92ba459761'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9cd4ed1b-2825-4b26-8e0b-703caf5ae875',
+  keyword: 'ans_49ed8eaa-d13f-4673-9b4c-d728c23c3f76',
+  answer: '👉 si deseas pedir escribe *pedir*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2a7e54d7e0b2345b1b16174e2f2d80ad'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002412612@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0C58A58B57639B3D13C',
+    participant: undefined
+  },
+  messageTimestamp: 1747464306,
+  pushName: 'Jesús Resucito',
+  broadcast: false,
+  message: Message {
+    conversation: 'pedir',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'pedir',
+  from: '573002412612'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b87c3b82-3506-4017-803f-20f7bdc81288',
+  keyword: 'key_f1492408-e954-4797-9f95-5e30dd6ddcee',
+  answer: 'Elige una de estas opciones:\r\n' +
+    'si ya sabes que elegir elige desde la opcion 2 hasta la 4 y si tienes alguna duda del pedido puedes presionar 5\r\n' +
+    '\r\n' +
+    'opcion 1 - menu\r\n' +
+    'opcion 2 para pedir: hamburguesa\r\n' +
+    'opcion 3 para pedor: arepa rellena\r\n' +
+    'opcion 4 para pedir: asado\r\n' +
+    'opcion 5 - pregunta\r\n' +
+    'opcion 0 - salir',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '07353cc6c18729338c6a2aa69c849c76'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002412612@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0D148B94ADEAE75BB41',
+    participant: undefined
+  },
+  messageTimestamp: 1747464307,
+  pushName: 'Jesús Resucito',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '2',
+  from: '573002412612'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002412612@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB07A8BDA0355CF029203',
+    participant: undefined
+  },
+  messageTimestamp: 1747464310,
+  pushName: 'Jesús Resucito',
+  broadcast: false,
+  message: Message {
+    conversation: 'np',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'np',
+  from: '573002412612'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9dd148a0-153d-4a31-86d2-53209742adde',
+  keyword: 'key_410abad4-f149-4277-8757-e70ded49d6c0',
+  answer: '🙌 Hola bienvenido a este restaurante llamado *fastfood* mi nombre es michell estoy diseñada para procesar tu pedido si hay algun error puedes presionar el boton de comunicar con un trabajador',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '644cb6b0277ae4f9763ca3a589bb5740'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f48961dc-a274-41c4-8eec-37d2ac866341',
+  keyword: 'ans_9dd148a0-153d-4a31-86d2-53209742adde',
+  answer: '🍔 ¿Que deseas comer?, todos los domicilios cuestan 3 dolares dentro de la zona urbana',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '672e59dd959f5ed1f2a49579886ff841'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_240fa7f9-17aa-4905-8056-f0cb3cf82b9b',
+  keyword: 'ans_f48961dc-a274-41c4-8eec-37d2ac866341',
+  answer: '👉 *hamburguesa*: Deliciosa hamburguesa con papas fritas y gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'dcf99dbb240c9742c9a340b6319e96ef'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_171881d6-9d20-4002-82b0-b9314a041e10',
+  keyword: 'ans_240fa7f9-17aa-4905-8056-f0cb3cf82b9b',
+  answer: '👉 *arepa rellena*:  deliciosa arepa rellena de pollo y carne con queso mas gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '52b70655666e99750868bd8afc2598fb'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_49ed8eaa-d13f-4673-9b4c-d728c23c3f76',
+  keyword: 'ans_171881d6-9d20-4002-82b0-b9314a041e10',
+  answer: '👉 *asado*: Delicioso asado de carne de res con papas a la francesa con una gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '70ce2283ab28f89d9a5b2d92ba459761'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9cd4ed1b-2825-4b26-8e0b-703caf5ae875',
+  keyword: 'ans_49ed8eaa-d13f-4673-9b4c-d728c23c3f76',
+  answer: '👉 si deseas pedir escribe *pedir*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2a7e54d7e0b2345b1b16174e2f2d80ad'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002412612@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0CD7C81689379157F68',
+    participant: undefined
+  },
+  messageTimestamp: 1747464313,
+  pushName: 'Jesús Resucito',
+  broadcast: false,
+  message: Message {
+    conversation: 'pedir',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'pedir',
+  from: '573002412612'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b87c3b82-3506-4017-803f-20f7bdc81288',
+  keyword: 'key_f1492408-e954-4797-9f95-5e30dd6ddcee',
+  answer: 'Elige una de estas opciones:\r\n' +
+    'si ya sabes que elegir elige desde la opcion 2 hasta la 4 y si tienes alguna duda del pedido puedes presionar 5\r\n' +
+    '\r\n' +
+    'opcion 1 - menu\r\n' +
+    'opcion 2 para pedir: hamburguesa\r\n' +
+    'opcion 3 para pedor: arepa rellena\r\n' +
+    'opcion 4 para pedir: asado\r\n' +
+    'opcion 5 - pregunta\r\n' +
+    'opcion 0 - salir',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '07353cc6c18729338c6a2aa69c849c76'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002412612@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB00754CD42BF860745A6',
+    participant: undefined
+  },
+  messageTimestamp: 1747464315,
+  pushName: 'Jesús Resucito',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '2',
+  from: '573002412612'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002412612@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0ECBDDE0FF3D5DB52EC',
+    participant: undefined
+  },
+  messageTimestamp: 1747464317,
+  pushName: 'Jesús Resucito',
+  broadcast: false,
+  message: Message {
+    conversation: 'no',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'no',
+  from: '573002412612'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9dd148a0-153d-4a31-86d2-53209742adde',
+  keyword: 'key_410abad4-f149-4277-8757-e70ded49d6c0',
+  answer: '🙌 Hola bienvenido a este restaurante llamado *fastfood* mi nombre es michell estoy diseñada para procesar tu pedido si hay algun error puedes presionar el boton de comunicar con un trabajador',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '644cb6b0277ae4f9763ca3a589bb5740'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f48961dc-a274-41c4-8eec-37d2ac866341',
+  keyword: 'ans_9dd148a0-153d-4a31-86d2-53209742adde',
+  answer: '🍔 ¿Que deseas comer?, todos los domicilios cuestan 3 dolares dentro de la zona urbana',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '672e59dd959f5ed1f2a49579886ff841'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_240fa7f9-17aa-4905-8056-f0cb3cf82b9b',
+  keyword: 'ans_f48961dc-a274-41c4-8eec-37d2ac866341',
+  answer: '👉 *hamburguesa*: Deliciosa hamburguesa con papas fritas y gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'dcf99dbb240c9742c9a340b6319e96ef'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_171881d6-9d20-4002-82b0-b9314a041e10',
+  keyword: 'ans_240fa7f9-17aa-4905-8056-f0cb3cf82b9b',
+  answer: '👉 *arepa rellena*:  deliciosa arepa rellena de pollo y carne con queso mas gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '52b70655666e99750868bd8afc2598fb'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_49ed8eaa-d13f-4673-9b4c-d728c23c3f76',
+  keyword: 'ans_171881d6-9d20-4002-82b0-b9314a041e10',
+  answer: '👉 *asado*: Delicioso asado de carne de res con papas a la francesa con una gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '70ce2283ab28f89d9a5b2d92ba459761'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9cd4ed1b-2825-4b26-8e0b-703caf5ae875',
+  keyword: 'ans_49ed8eaa-d13f-4673-9b4c-d728c23c3f76',
+  answer: '👉 si deseas pedir escribe *pedir*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2a7e54d7e0b2345b1b16174e2f2d80ad'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002412612@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0B324FD9E6879787B8E',
+    participant: undefined
+  },
+  messageTimestamp: 1747464322,
+  pushName: 'Jesús Resucito',
+  broadcast: false,
+  message: Message {
+    conversation: 'no',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'no',
+  from: '573002412612'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9dd148a0-153d-4a31-86d2-53209742adde',
+  keyword: 'key_410abad4-f149-4277-8757-e70ded49d6c0',
+  answer: '🙌 Hola bienvenido a este restaurante llamado *fastfood* mi nombre es michell estoy diseñada para procesar tu pedido si hay algun error puedes presionar el boton de comunicar con un trabajador',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '644cb6b0277ae4f9763ca3a589bb5740'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f48961dc-a274-41c4-8eec-37d2ac866341',
+  keyword: 'ans_9dd148a0-153d-4a31-86d2-53209742adde',
+  answer: '🍔 ¿Que deseas comer?, todos los domicilios cuestan 3 dolares dentro de la zona urbana',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '672e59dd959f5ed1f2a49579886ff841'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_240fa7f9-17aa-4905-8056-f0cb3cf82b9b',
+  keyword: 'ans_f48961dc-a274-41c4-8eec-37d2ac866341',
+  answer: '👉 *hamburguesa*: Deliciosa hamburguesa con papas fritas y gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'dcf99dbb240c9742c9a340b6319e96ef'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_171881d6-9d20-4002-82b0-b9314a041e10',
+  keyword: 'ans_240fa7f9-17aa-4905-8056-f0cb3cf82b9b',
+  answer: '👉 *arepa rellena*:  deliciosa arepa rellena de pollo y carne con queso mas gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '52b70655666e99750868bd8afc2598fb'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_49ed8eaa-d13f-4673-9b4c-d728c23c3f76',
+  keyword: 'ans_171881d6-9d20-4002-82b0-b9314a041e10',
+  answer: '👉 *asado*: Delicioso asado de carne de res con papas a la francesa con una gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '70ce2283ab28f89d9a5b2d92ba459761'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9cd4ed1b-2825-4b26-8e0b-703caf5ae875',
+  keyword: 'ans_49ed8eaa-d13f-4673-9b4c-d728c23c3f76',
+  answer: '👉 si deseas pedir escribe *pedir*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2a7e54d7e0b2345b1b16174e2f2d80ad'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002412612@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB03DB9F98A8F50D654ED',
+    participant: undefined
+  },
+  messageTimestamp: 1747464325,
+  pushName: 'Jesús Resucito',
+  broadcast: false,
+  message: Message {
+    conversation: 'pedir',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'pedir',
+  from: '573002412612'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b87c3b82-3506-4017-803f-20f7bdc81288',
+  keyword: 'key_f1492408-e954-4797-9f95-5e30dd6ddcee',
+  answer: 'Elige una de estas opciones:\r\n' +
+    'si ya sabes que elegir elige desde la opcion 2 hasta la 4 y si tienes alguna duda del pedido puedes presionar 5\r\n' +
+    '\r\n' +
+    'opcion 1 - menu\r\n' +
+    'opcion 2 para pedir: hamburguesa\r\n' +
+    'opcion 3 para pedor: arepa rellena\r\n' +
+    'opcion 4 para pedir: asado\r\n' +
+    'opcion 5 - pregunta\r\n' +
+    'opcion 0 - salir',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '07353cc6c18729338c6a2aa69c849c76'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002412612@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0A82556FBC2274EA0DD',
+    participant: undefined
+  },
+  messageTimestamp: 1747464326,
+  pushName: 'Jesús Resucito',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '2',
+  from: '573002412612'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002412612@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0D25AC9196497637E2E',
+    participant: undefined
+  },
+  messageTimestamp: 1747464327,
+  pushName: 'Jesús Resucito',
+  broadcast: false,
+  message: Message {
+    conversation: 'no',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'no',
+  from: '573002412612'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9dd148a0-153d-4a31-86d2-53209742adde',
+  keyword: 'key_410abad4-f149-4277-8757-e70ded49d6c0',
+  answer: '🙌 Hola bienvenido a este restaurante llamado *fastfood* mi nombre es michell estoy diseñada para procesar tu pedido si hay algun error puedes presionar el boton de comunicar con un trabajador',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '644cb6b0277ae4f9763ca3a589bb5740'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f48961dc-a274-41c4-8eec-37d2ac866341',
+  keyword: 'ans_9dd148a0-153d-4a31-86d2-53209742adde',
+  answer: '🍔 ¿Que deseas comer?, todos los domicilios cuestan 3 dolares dentro de la zona urbana',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '672e59dd959f5ed1f2a49579886ff841'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_240fa7f9-17aa-4905-8056-f0cb3cf82b9b',
+  keyword: 'ans_f48961dc-a274-41c4-8eec-37d2ac866341',
+  answer: '👉 *hamburguesa*: Deliciosa hamburguesa con papas fritas y gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'dcf99dbb240c9742c9a340b6319e96ef'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_171881d6-9d20-4002-82b0-b9314a041e10',
+  keyword: 'ans_240fa7f9-17aa-4905-8056-f0cb3cf82b9b',
+  answer: '👉 *arepa rellena*:  deliciosa arepa rellena de pollo y carne con queso mas gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '52b70655666e99750868bd8afc2598fb'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_49ed8eaa-d13f-4673-9b4c-d728c23c3f76',
+  keyword: 'ans_171881d6-9d20-4002-82b0-b9314a041e10',
+  answer: '👉 *asado*: Delicioso asado de carne de res con papas a la francesa con una gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '70ce2283ab28f89d9a5b2d92ba459761'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9cd4ed1b-2825-4b26-8e0b-703caf5ae875',
+  keyword: 'ans_49ed8eaa-d13f-4673-9b4c-d728c23c3f76',
+  answer: '👉 si deseas pedir escribe *pedir*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2a7e54d7e0b2345b1b16174e2f2d80ad'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002412612@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB006AA0E87A7F94F3A61',
+    participant: undefined
+  },
+  messageTimestamp: 1747464330,
+  pushName: 'Jesús Resucito',
+  broadcast: false,
+  message: Message {
+    conversation: 'pedir',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'pedir',
+  from: '573002412612'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b87c3b82-3506-4017-803f-20f7bdc81288',
+  keyword: 'key_f1492408-e954-4797-9f95-5e30dd6ddcee',
+  answer: 'Elige una de estas opciones:\r\n' +
+    'si ya sabes que elegir elige desde la opcion 2 hasta la 4 y si tienes alguna duda del pedido puedes presionar 5\r\n' +
+    '\r\n' +
+    'opcion 1 - menu\r\n' +
+    'opcion 2 para pedir: hamburguesa\r\n' +
+    'opcion 3 para pedor: arepa rellena\r\n' +
+    'opcion 4 para pedir: asado\r\n' +
+    'opcion 5 - pregunta\r\n' +
+    'opcion 0 - salir',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '07353cc6c18729338c6a2aa69c849c76'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002412612@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0266BCC9477F4A60E99',
+    participant: undefined
+  },
+  messageTimestamp: 1747464331,
+  pushName: 'Jesús Resucito',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '3',
+  from: '573002412612'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002412612@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB09FE5EDE743D09CF60B',
+    participant: undefined
+  },
+  messageTimestamp: 1747464333,
+  pushName: 'Jesús Resucito',
+  broadcast: false,
+  message: Message {
+    conversation: 'si',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'si',
+  from: '573002412612'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9dd148a0-153d-4a31-86d2-53209742adde',
+  keyword: 'key_410abad4-f149-4277-8757-e70ded49d6c0',
+  answer: '🙌 Hola bienvenido a este restaurante llamado *fastfood* mi nombre es michell estoy diseñada para procesar tu pedido si hay algun error puedes presionar el boton de comunicar con un trabajador',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '644cb6b0277ae4f9763ca3a589bb5740'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f48961dc-a274-41c4-8eec-37d2ac866341',
+  keyword: 'ans_9dd148a0-153d-4a31-86d2-53209742adde',
+  answer: '🍔 ¿Que deseas comer?, todos los domicilios cuestan 3 dolares dentro de la zona urbana',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '672e59dd959f5ed1f2a49579886ff841'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_240fa7f9-17aa-4905-8056-f0cb3cf82b9b',
+  keyword: 'ans_f48961dc-a274-41c4-8eec-37d2ac866341',
+  answer: '👉 *hamburguesa*: Deliciosa hamburguesa con papas fritas y gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'dcf99dbb240c9742c9a340b6319e96ef'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_171881d6-9d20-4002-82b0-b9314a041e10',
+  keyword: 'ans_240fa7f9-17aa-4905-8056-f0cb3cf82b9b',
+  answer: '👉 *arepa rellena*:  deliciosa arepa rellena de pollo y carne con queso mas gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '52b70655666e99750868bd8afc2598fb'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_49ed8eaa-d13f-4673-9b4c-d728c23c3f76',
+  keyword: 'ans_171881d6-9d20-4002-82b0-b9314a041e10',
+  answer: '👉 *asado*: Delicioso asado de carne de res con papas a la francesa con una gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '70ce2283ab28f89d9a5b2d92ba459761'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9cd4ed1b-2825-4b26-8e0b-703caf5ae875',
+  keyword: 'ans_49ed8eaa-d13f-4673-9b4c-d728c23c3f76',
+  answer: '👉 si deseas pedir escribe *pedir*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2a7e54d7e0b2345b1b16174e2f2d80ad'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002412612@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB06CA0D8A575309E7F8B',
+    participant: undefined
+  },
+  messageTimestamp: 1747464335,
+  pushName: 'Jesús Resucito',
+  broadcast: false,
+  message: Message {
+    conversation: 'pedir',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'pedir',
+  from: '573002412612'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b87c3b82-3506-4017-803f-20f7bdc81288',
+  keyword: 'key_f1492408-e954-4797-9f95-5e30dd6ddcee',
+  answer: 'Elige una de estas opciones:\r\n' +
+    'si ya sabes que elegir elige desde la opcion 2 hasta la 4 y si tienes alguna duda del pedido puedes presionar 5\r\n' +
+    '\r\n' +
+    'opcion 1 - menu\r\n' +
+    'opcion 2 para pedir: hamburguesa\r\n' +
+    'opcion 3 para pedor: arepa rellena\r\n' +
+    'opcion 4 para pedir: asado\r\n' +
+    'opcion 5 - pregunta\r\n' +
+    'opcion 0 - salir',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '07353cc6c18729338c6a2aa69c849c76'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002412612@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0504E3B73A7181BBF45',
+    participant: undefined
+  },
+  messageTimestamp: 1747464337,
+  pushName: 'Jesús Resucito',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '2',
+  from: '573002412612'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002412612@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB03DFD4DDD46D83E2A05',
+    participant: undefined
+  },
+  messageTimestamp: 1747464338,
+  pushName: 'Jesús Resucito',
+  broadcast: false,
+  message: Message {
+    conversation: 'no',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'no',
+  from: '573002412612'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9dd148a0-153d-4a31-86d2-53209742adde',
+  keyword: 'key_410abad4-f149-4277-8757-e70ded49d6c0',
+  answer: '🙌 Hola bienvenido a este restaurante llamado *fastfood* mi nombre es michell estoy diseñada para procesar tu pedido si hay algun error puedes presionar el boton de comunicar con un trabajador',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '644cb6b0277ae4f9763ca3a589bb5740'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f48961dc-a274-41c4-8eec-37d2ac866341',
+  keyword: 'ans_9dd148a0-153d-4a31-86d2-53209742adde',
+  answer: '🍔 ¿Que deseas comer?, todos los domicilios cuestan 3 dolares dentro de la zona urbana',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '672e59dd959f5ed1f2a49579886ff841'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_240fa7f9-17aa-4905-8056-f0cb3cf82b9b',
+  keyword: 'ans_f48961dc-a274-41c4-8eec-37d2ac866341',
+  answer: '👉 *hamburguesa*: Deliciosa hamburguesa con papas fritas y gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'dcf99dbb240c9742c9a340b6319e96ef'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_171881d6-9d20-4002-82b0-b9314a041e10',
+  keyword: 'ans_240fa7f9-17aa-4905-8056-f0cb3cf82b9b',
+  answer: '👉 *arepa rellena*:  deliciosa arepa rellena de pollo y carne con queso mas gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '52b70655666e99750868bd8afc2598fb'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_49ed8eaa-d13f-4673-9b4c-d728c23c3f76',
+  keyword: 'ans_171881d6-9d20-4002-82b0-b9314a041e10',
+  answer: '👉 *asado*: Delicioso asado de carne de res con papas a la francesa con una gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '70ce2283ab28f89d9a5b2d92ba459761'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9cd4ed1b-2825-4b26-8e0b-703caf5ae875',
+  keyword: 'ans_49ed8eaa-d13f-4673-9b4c-d728c23c3f76',
+  answer: '👉 si deseas pedir escribe *pedir*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2a7e54d7e0b2345b1b16174e2f2d80ad'
+}
