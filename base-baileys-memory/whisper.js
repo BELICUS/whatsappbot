@@ -29,7 +29,7 @@ const voiceToText=async(path)=>{
 const convertOggMp3 = async(inputStream, outStream) => {
     return new Promise((resolve, reject) => {
         ffmpeg(inputStream)
-            AudioQuality(96)
+            .audioBitrate(96)
             .toFormat('mp3')
             .save(outStream)
             .on('progress', (p) => null )
@@ -55,4 +55,4 @@ const handlerAI = async (ctx) => {
     return text;
 };
 
-module.exports = voiceToText
+module.exports = {handlerAI};

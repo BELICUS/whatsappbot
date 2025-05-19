@@ -4,6 +4,6 @@ si hay algun error puedes solicitar un trabajador en la opcion 4
 
 opcion 1 - menu
 opcion 2 - si ya sabes que pedir
-opcion 3 - pregunta
+opcion 3 - pregunta(bot)
 opcion 4 - para hablar con un asesor
 opcion 0 - salir

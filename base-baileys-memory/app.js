@@ -18,13 +18,14 @@ const pathConsultas = path.join(__dirname, 'mensajes' ,'promptConsultas.txt')
 const promptConsultas = fs.readFileSync(pathConsultas, 'utf-8')
 
 //whisper
-const handlerAI = require('./whisper');
+const {handlerAI} = require('./whisper');
 
 
-const flowVoice = addKeyword(EVENTS.VOICE_NOTE).addAnswer('esta es una nota de voz, el bot no funciona con notas de voz'/*, null, async(ctx,ctxFn) => {*/
-    // const audioPath = ctx.audioPath;
-    // const text = await handlerAI(audioPath);
-    // console.log(text)
+const flowVoice = addKeyword(EVENTS.VOICE_NOTE).addAnswer('esta es una nota de voz, el bot no funciona con notas de voz'/*, null, async(ctx,ctxFn) => {
+    //const audioPath = ctx.audioPath;
+    const text = await handlerAI(ctx);
+    console.log(text)
+}*/
 );
 
 // //asesor------------------------------
@@ -57,13 +58,16 @@ const flowDireccion = addKeyword(EVENTS.ACTION)
             // Si la dirección está vacía, es muy corta o contiene caracteres no válidos
             return fallBack('❌ Dirección no válida. Por favor, ingrese una dirección válida (mínimo 5 caracteres, solo letras, números, espacios, y los caracteres , # . -).');
         }
-        return await flowDynamic(`✅ Gracias, hemos registrado tu dirección: ${direccion}, estamos atentos a la screenshot de la transferencia`);
+        return await flowDynamic(`✅ Gracias, hemos registrado tu dirección: ${direccion}, estamos atentos a la screenshot de la transferencia, o si es en efectivo solo escribe la palabra *efectivo*`);
         //return gotoFlow(flowFoto);
     });
 
 // //foto de la transferencia---------------------
 const flowFoto = addKeyword(EVENTS.MEDIA)
     .addAnswer('✅ ¡Gracias! Hemos recibido tu comprobante de transferencia correctamente.');
+//efectivo---------------------------------------
+const flowEfectivo = addKeyword(['efectivo', 'Efectivo', 'EFECTIVO'])
+    .addAnswer('✅ ¡Gracias! Hemos recibido que pagaras con efectivo.');
 
 //flow de consulta----------------------------
 const flowConsulta = addKeyword(EVENTS.ACTION)
@@ -117,7 +121,7 @@ const menuFlow =  addKeyword(['pedir', 'pedi', 'Pedir','PEDIR']).addAnswer(
 
 const main = async () => {
     const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowWelcome, menuFlow, flowMenu, flowNombre, flowDireccion,flowFoto,flowConsulta, flowVoice, flowAsesor])
+    const adapterFlow = createFlow([flowWelcome, menuFlow, flowMenu, flowNombre, flowDireccion,flowFoto,flowConsulta, flowVoice, ,flowEfectivo, flowAsesor])
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({
