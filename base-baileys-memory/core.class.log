@@ -1,16 +1,16 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '573182739717@s.whatsapp.net',
+    remoteJid: '573103945349@s.whatsapp.net',
     fromMe: false,
-    id: '99EC77E29850DEBB1298692BB47924BA',
+    id: 'F8883B06FC2A6565F5F23064B6CC3705',
     participant: undefined
   },
-  messageTimestamp: 1747619468,
-  pushName: 'Samuel',
+  messageTimestamp: 1747923606,
+  pushName: '𝕁𝕠𝕤é 𝔸𝕝𝕗𝕣𝕖𝕕𝕠',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'Pedir',
+      text: 'Ho',
       previewType: 0,
       contextInfo: [ContextInfo],
       inviteLinkGroupTypeV2: 0
@@ -21,142 +21,12 @@
       messageSecret: [Uint8Array]
     }
   },
-  body: 'Pedir',
-  from: '573182739717'
+  body: 'Ho',
+  from: '573103945349'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5f967cb0-8447-4148-ac47-1b9d0ab27e61',
-  keyword: 'key_1de1d2b2-a7fb-4f0f-8943-f004651712a7',
-  answer: 'Elige una de estas opciones:\r\n' +
-    '\r\n' +
-    'si hay algun error puedes solicitar un trabajador en la opcion 4\r\n' +
-    '\r\n' +
-    'opcion 1 - menu\r\n' +
-    'opcion 2 - si ya sabes que pedir\r\n' +
-    'opcion 3 - pregunta\r\n' +
-    'opcion 4 - para hablar con un asesor\r\n' +
-    'opcion 0 - salir',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '5f121939331c4a94fc960a9bcb07b151'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573182739717@s.whatsapp.net',
-    fromMe: false,
-    id: '5C097343B0EA268478E96AE3C2410A75',
-    participant: undefined
-  },
-  messageTimestamp: 1747619469,
-  pushName: 'Samuel',
-  broadcast: false,
-  message: Message {
-    protocolMessage: ProtocolMessage {
-      key: [MessageKey],
-      type: 4,
-      ephemeralExpiration: 86400,
-      ephemeralSettingTimestamp: [Long],
-      disappearingMode: [DisappearingMode]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '',
-  from: '573182739717'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573182739717@s.whatsapp.net',
-    fromMe: false,
-    id: 'D9C8F3841BB646909A9C392D6813C14D',
-    participant: undefined
-  },
-  messageTimestamp: 1747619473,
-  pushName: 'Samuel',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '1',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '1',
-  from: '573182739717'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573182739717@s.whatsapp.net',
-    fromMe: false,
-    id: 'A960232CDB204AABCD31B4EFE57EF8D6',
-    participant: undefined
-  },
-  messageTimestamp: 1747619474,
-  pushName: 'Samuel',
-  broadcast: false,
-  message: Message {
-    protocolMessage: ProtocolMessage {
-      key: [MessageKey],
-      type: 4,
-      ephemeralExpiration: 86400,
-      ephemeralSettingTimestamp: [Long],
-      disappearingMode: [DisappearingMode]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '',
-  from: '573182739717'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573182739717@s.whatsapp.net',
-    fromMe: false,
-    id: 'BDBA42FE29CEAC89F0670418D53C391C',
-    participant: undefined
-  },
-  messageTimestamp: 1747619514,
-  pushName: 'Samuel',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Buena',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'Buena',
-  from: '573182739717'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_6169fa8b-a46c-4097-8ca0-dbeac0e5b186',
-  keyword: 'key_c4f0b1f6-30a3-45a6-999c-84b31c4a701d',
+  ref: 'ans_35db5dad-1393-45d6-85e1-811ec35653be',
+  keyword: 'key_b6aed57f-022f-4588-ba85-5fffb0c138d2',
   answer: '🙌 Hola bienvenido a este restaurante llamado *fastfood* mi nombre es michell estoy diseñada para procesar tu pedido',
   options: {
     media: null,
@@ -170,11 +40,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '3a6cafc5790b4bfd1262a5ddf2f53647'
+  refSerialize: '6cb2d58e13c99b2b54b4684815fd4d7e'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_f0979f4e-c2cc-404d-9ada-61d625010c3c',
-  keyword: 'ans_6169fa8b-a46c-4097-8ca0-dbeac0e5b186',
+  ref: 'ans_5d2e2f2b-cf64-4cf9-85d0-1edaabee428e',
+  keyword: 'ans_35db5dad-1393-45d6-85e1-811ec35653be',
   answer: '🍔 ¿Que deseas comer?, todos los domicilios cuestan 3 dolares dentro de la zona urbana',
   options: {
     media: null,
@@ -188,11 +58,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'd00f5595bf372e67a033ac057403802c'
+  refSerialize: '4bb127fec45f13b10dc97f9884db3946'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_07bf665f-1cd4-449d-aa7e-f6f3ce570c9f',
-  keyword: 'ans_f0979f4e-c2cc-404d-9ada-61d625010c3c',
+  ref: 'ans_763086b5-0646-4efc-a40e-ecbc5eedf916',
+  keyword: 'ans_5d2e2f2b-cf64-4cf9-85d0-1edaabee428e',
   answer: '👉 *hamburguesa*: Deliciosa hamburguesa con papas fritas y gaseosa',
   options: {
     media: null,
@@ -206,11 +76,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '99e1602435093af5bd320fac1f4e09c6'
+  refSerialize: 'e10cabd5b0f7454fb02560949478ab9d'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_f301ec30-b3bb-4f67-937c-9a58c5f07925',
-  keyword: 'ans_07bf665f-1cd4-449d-aa7e-f6f3ce570c9f',
+  ref: 'ans_edc15949-7d0f-4979-a000-fe335fbf56b5',
+  keyword: 'ans_763086b5-0646-4efc-a40e-ecbc5eedf916',
   answer: '👉 *arepa rellena*:  deliciosa arepa rellena de pollo y carne con queso mas gaseosa',
   options: {
     media: null,
@@ -224,37 +94,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '532b7d26e59f464a0dec78155961f80e'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573182739717@s.whatsapp.net',
-    fromMe: false,
-    id: '8732314D5AF09E3CCE00EAD672131FEB',
-    participant: undefined
-  },
-  messageTimestamp: 1747619515,
-  pushName: 'Samuel',
-  broadcast: false,
-  message: Message {
-    protocolMessage: ProtocolMessage {
-      key: [MessageKey],
-      type: 4,
-      ephemeralExpiration: 86400,
-      ephemeralSettingTimestamp: [Long],
-      disappearingMode: [DisappearingMode]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '',
-  from: '573182739717'
+  refSerialize: '4758b296fbbd4b64f2dd6b042b762438'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_59ca259b-39f3-45a2-a0ec-823a9d249c25',
-  keyword: 'ans_f301ec30-b3bb-4f67-937c-9a58c5f07925',
+  ref: 'ans_0c0d17ba-52ea-48bb-a493-b6646a88a21a',
+  keyword: 'ans_edc15949-7d0f-4979-a000-fe335fbf56b5',
   answer: '👉 *asado*: Delicioso asado de carne de res con papas a la francesa con una gaseosa',
   options: {
     media: null,
@@ -268,11 +112,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '199b98a2938644b17a75f8e898ed0a3b'
+  refSerialize: 'a297eda3adb283601206eb6e1b1e0152'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_7a7e72bc-87dd-4159-88c0-f733736247e3',
-  keyword: 'ans_59ca259b-39f3-45a2-a0ec-823a9d249c25',
+  ref: 'ans_11d94783-c9d9-41f1-b511-ac1a06ab08e0',
+  keyword: 'ans_0c0d17ba-52ea-48bb-a493-b6646a88a21a',
   answer: '👉 si deseas pedir escribe *pedir*',
   options: {
     media: null,
@@ -286,25 +130,20 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '9abc918c95f9fdd95282417c49a4951d'
+  refSerialize: 'c0e580052c316d1c8b5be726c61fff53'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573182739717@s.whatsapp.net',
+    remoteJid: '573103945349@s.whatsapp.net',
     fromMe: false,
-    id: '89D0438F5A3F4552FB9A70E31824A873',
+    id: 'A0CE884C75B64F9EFC05A926ED3154DA',
     participant: undefined
   },
-  messageTimestamp: 1747619520,
-  pushName: 'Samuel',
+  messageTimestamp: 1747923618,
+  pushName: '𝕁𝕠𝕤é 𝔸𝕝𝕗𝕣𝕖𝕕𝕠',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Pedir',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: 'Pedir',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
@@ -312,18 +151,18 @@
     }
   },
   body: 'Pedir',
-  from: '573182739717'
+  from: '573103945349'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5f967cb0-8447-4148-ac47-1b9d0ab27e61',
-  keyword: 'key_1de1d2b2-a7fb-4f0f-8943-f004651712a7',
+  ref: 'ans_7ef880fa-4a58-4cf2-987a-dfb36c42a1bf',
+  keyword: 'key_2c9447b7-70bb-4f7d-9d9d-c9a561c7621d',
   answer: 'Elige una de estas opciones:\r\n' +
     '\r\n' +
     'si hay algun error puedes solicitar un trabajador en la opcion 4\r\n' +
     '\r\n' +
     'opcion 1 - menu\r\n' +
     'opcion 2 - si ya sabes que pedir\r\n' +
-    'opcion 3 - pregunta\r\n' +
+    'opcion 3 - pregunta(bot)\r\n' +
     'opcion 4 - para hablar con un asesor\r\n' +
     'opcion 0 - salir',
   options: {
@@ -338,341 +177,20 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '5f121939331c4a94fc960a9bcb07b151'
+  refSerialize: '11196cc49fcf8fcc65b4575984fdbc7b'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573182739717@s.whatsapp.net',
+    remoteJid: '573103945349@s.whatsapp.net',
     fromMe: false,
-    id: 'C8C78F6AFD85E49F1A1EEF78932BEFC7',
+    id: '8F848DFCB3E80EBC656277E640E6D93E',
     participant: undefined
   },
-  messageTimestamp: 1747619521,
-  pushName: 'Samuel',
+  messageTimestamp: 1747923623,
+  pushName: '𝕁𝕠𝕤é 𝔸𝕝𝕗𝕣𝕖𝕕𝕠',
   broadcast: false,
   message: Message {
-    protocolMessage: ProtocolMessage {
-      key: [MessageKey],
-      type: 4,
-      ephemeralExpiration: 86400,
-      ephemeralSettingTimestamp: [Long],
-      disappearingMode: [DisappearingMode]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '',
-  from: '573182739717'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573182739717@s.whatsapp.net',
-    fromMe: false,
-    id: '37B76C406055A4590B45A87450F3388A',
-    participant: undefined
-  },
-  messageTimestamp: 1747619527,
-  pushName: 'Samuel',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '1',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '1',
-  from: '573182739717'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573182739717@s.whatsapp.net',
-    fromMe: false,
-    id: '7CDCFE35D6FCF74EC2284522C22C6B3F',
-    participant: undefined
-  },
-  messageTimestamp: 1747619528,
-  pushName: 'Samuel',
-  broadcast: false,
-  message: Message {
-    protocolMessage: ProtocolMessage {
-      key: [MessageKey],
-      type: 4,
-      ephemeralExpiration: 86400,
-      ephemeralSettingTimestamp: [Long],
-      disappearingMode: [DisappearingMode]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '',
-  from: '573182739717'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573182739717@s.whatsapp.net',
-    fromMe: false,
-    id: '2AB2EF4C50D1CE9D21BDC4469902EC0B',
-    participant: undefined
-  },
-  messageTimestamp: 1747619555,
-  pushName: 'Samuel',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Me das una hamburguesa clásica',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'Me das una hamburguesa clásica',
-  from: '573182739717'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_6169fa8b-a46c-4097-8ca0-dbeac0e5b186',
-  keyword: 'key_c4f0b1f6-30a3-45a6-999c-84b31c4a701d',
-  answer: '🙌 Hola bienvenido a este restaurante llamado *fastfood* mi nombre es michell estoy diseñada para procesar tu pedido',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '3a6cafc5790b4bfd1262a5ddf2f53647'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_f0979f4e-c2cc-404d-9ada-61d625010c3c',
-  keyword: 'ans_6169fa8b-a46c-4097-8ca0-dbeac0e5b186',
-  answer: '🍔 ¿Que deseas comer?, todos los domicilios cuestan 3 dolares dentro de la zona urbana',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'd00f5595bf372e67a033ac057403802c'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_07bf665f-1cd4-449d-aa7e-f6f3ce570c9f',
-  keyword: 'ans_f0979f4e-c2cc-404d-9ada-61d625010c3c',
-  answer: '👉 *hamburguesa*: Deliciosa hamburguesa con papas fritas y gaseosa',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '99e1602435093af5bd320fac1f4e09c6'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_f301ec30-b3bb-4f67-937c-9a58c5f07925',
-  keyword: 'ans_07bf665f-1cd4-449d-aa7e-f6f3ce570c9f',
-  answer: '👉 *arepa rellena*:  deliciosa arepa rellena de pollo y carne con queso mas gaseosa',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '532b7d26e59f464a0dec78155961f80e'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573182739717@s.whatsapp.net',
-    fromMe: false,
-    id: 'BCF45D1C42FB89881951AD643C85A016',
-    participant: undefined
-  },
-  messageTimestamp: 1747619556,
-  pushName: 'Samuel',
-  broadcast: false,
-  message: Message {
-    protocolMessage: ProtocolMessage {
-      key: [MessageKey],
-      type: 4,
-      ephemeralExpiration: 86400,
-      ephemeralSettingTimestamp: [Long],
-      disappearingMode: [DisappearingMode]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '',
-  from: '573182739717'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_59ca259b-39f3-45a2-a0ec-823a9d249c25',
-  keyword: 'ans_f301ec30-b3bb-4f67-937c-9a58c5f07925',
-  answer: '👉 *asado*: Delicioso asado de carne de res con papas a la francesa con una gaseosa',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '199b98a2938644b17a75f8e898ed0a3b'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_7a7e72bc-87dd-4159-88c0-f733736247e3',
-  keyword: 'ans_59ca259b-39f3-45a2-a0ec-823a9d249c25',
-  answer: '👉 si deseas pedir escribe *pedir*',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '9abc918c95f9fdd95282417c49a4951d'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573182739717@s.whatsapp.net',
-    fromMe: false,
-    id: 'DC3458BC87FACAA48285B7479614DEC4',
-    participant: undefined
-  },
-  messageTimestamp: 1747619606,
-  pushName: 'Samuel',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Pedir',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'Pedir',
-  from: '573182739717'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5f967cb0-8447-4148-ac47-1b9d0ab27e61',
-  keyword: 'key_1de1d2b2-a7fb-4f0f-8943-f004651712a7',
-  answer: 'Elige una de estas opciones:\r\n' +
-    '\r\n' +
-    'si hay algun error puedes solicitar un trabajador en la opcion 4\r\n' +
-    '\r\n' +
-    'opcion 1 - menu\r\n' +
-    'opcion 2 - si ya sabes que pedir\r\n' +
-    'opcion 3 - pregunta\r\n' +
-    'opcion 4 - para hablar con un asesor\r\n' +
-    'opcion 0 - salir',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '5f121939331c4a94fc960a9bcb07b151'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573182739717@s.whatsapp.net',
-    fromMe: false,
-    id: 'BB107FC5E398E53034A7820344655037',
-    participant: undefined
-  },
-  messageTimestamp: 1747619607,
-  pushName: 'Samuel',
-  broadcast: false,
-  message: Message {
-    protocolMessage: ProtocolMessage {
-      key: [MessageKey],
-      type: 4,
-      ephemeralExpiration: 86400,
-      ephemeralSettingTimestamp: [Long],
-      disappearingMode: [DisappearingMode]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '',
-  from: '573182739717'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573182739717@s.whatsapp.net',
-    fromMe: false,
-    id: 'CCDBFF87A02587F6C9D3019A4AEE817F',
-    participant: undefined
-  },
-  messageTimestamp: 1747619611,
-  pushName: 'Samuel',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '2',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: '2',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
@@ -680,180 +198,96 @@
     }
   },
   body: '2',
-  from: '573182739717'
+  from: '573103945349'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573182739717@s.whatsapp.net',
+    remoteJid: '573103945349@s.whatsapp.net',
     fromMe: false,
-    id: 'B3C687822ED74DC53F3B4718E5C3063F',
+    id: '856B129952A48D26AD4B3FC4365D50E0',
     participant: undefined
   },
-  messageTimestamp: 1747619613,
-  pushName: 'Samuel',
+  messageTimestamp: 1747923637,
+  pushName: '𝕁𝕠𝕤é 𝔸𝕝𝕗𝕣𝕖𝕕𝕠',
   broadcast: false,
   message: Message {
-    protocolMessage: ProtocolMessage {
-      key: [MessageKey],
-      type: 4,
-      ephemeralExpiration: 86400,
-      ephemeralSettingTimestamp: [Long],
-      disappearingMode: [DisappearingMode]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '',
-  from: '573182739717'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573182739717@s.whatsapp.net',
-    fromMe: false,
-    id: '2D90625D929D7009563ACE002D96758E',
-    participant: undefined
-  },
-  messageTimestamp: 1747619618,
-  pushName: 'Samuel',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Samuel Castro',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: '2 asados',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'Samuel Castro',
-  from: '573182739717'
+  body: '2 asados',
+  from: '573103945349'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573182739717@s.whatsapp.net',
+    remoteJid: '573103945349@s.whatsapp.net',
     fromMe: false,
-    id: '2D463E039AEC69BAEAB2ECF364A13DF5',
+    id: '6A95488DF7E50009C5381E33B4DCDAD5',
     participant: undefined
   },
-  messageTimestamp: 1747619620,
-  pushName: 'Samuel',
+  messageTimestamp: 1747923643,
+  pushName: '𝕁𝕠𝕤é 𝔸𝕝𝕗𝕣𝕖𝕕𝕠',
   broadcast: false,
   message: Message {
-    protocolMessage: ProtocolMessage {
-      key: [MessageKey],
-      type: 4,
-      ephemeralExpiration: 86400,
-      ephemeralSettingTimestamp: [Long],
-      disappearingMode: [DisappearingMode]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '',
-  from: '573182739717'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573182739717@s.whatsapp.net',
-    fromMe: false,
-    id: '8E0D7E13E6774E96EC06B204F0A5C0AA',
-    participant: undefined
-  },
-  messageTimestamp: 1747619633,
-  pushName: 'Samuel',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Calle 24 hdjdghs\nJsjdvdudvdifb',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: 'D',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'Calle 24 hdjdghs\nJsjdvdudvdifb',
-  from: '573182739717'
+  body: 'D',
+  from: '573103945349'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573182739717@s.whatsapp.net',
+    remoteJid: '573103945349@s.whatsapp.net',
     fromMe: false,
-    id: '0AC79C9B4CB11BAD20EBDB5E3EBA5595',
+    id: '87EC5E06C5748FA6650638F13F734FB4',
     participant: undefined
   },
-  messageTimestamp: 1747619633,
-  pushName: 'Samuel',
+  messageTimestamp: 1747923647,
+  pushName: '𝕁𝕠𝕤é 𝔸𝕝𝕗𝕣𝕖𝕕𝕠',
   broadcast: false,
   message: Message {
-    protocolMessage: ProtocolMessage {
-      key: [MessageKey],
-      type: 4,
-      ephemeralExpiration: 86400,
-      ephemeralSettingTimestamp: [Long],
-      disappearingMode: [DisappearingMode]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '',
-  from: '573182739717'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573182739717@s.whatsapp.net',
-    fromMe: false,
-    id: 'FD7C75D2A92BD1BFE5385C7BFD12F044',
-    participant: undefined
-  },
-  messageTimestamp: 1747619672,
-  pushName: 'Samuel',
-  broadcast: false,
-  message: Message {
-    imageMessage: ImageMessage {
-      interactiveAnnotations: [],
-      scanLengths: [Array],
-      url: 'https://mmg.whatsapp.net/v/t62.7118-24/19116118_2971191693062112_3103964940613324690_n.enc?ccb=11-4&oh=01_Q5Aa1gE2sRLPGG7eyB7j_cXGbkIqcAwJapgdZbc-iV09bFv_5w&oe=6851EBEC&_nc_sid=5e03e0&mms3=true',
-      mimetype: 'image/jpeg',
-      fileSha256: [Uint8Array],
-      fileLength: [Long],
-      height: 1600,
-      width: 720,
-      mediaKey: [Uint8Array],
-      fileEncSha256: [Uint8Array],
-      directPath: '/v/t62.7118-24/19116118_2971191693062112_3103964940613324690_n.enc?ccb=11-4&oh=01_Q5Aa1gE2sRLPGG7eyB7j_cXGbkIqcAwJapgdZbc-iV09bFv_5w&oe=6851EBEC&_nc_sid=5e03e0',
-      mediaKeyTimestamp: [Long],
-      jpegThumbnail: [Uint8Array],
-      contextInfo: [ContextInfo],
-      scansSidecar: [Uint8Array],
-      midQualityFileSha256: [Uint8Array]
-    },
+    conversation: 'Calle 24',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: '_event_media__c6583cb6-fa78-45d8-a9a4-ca7b074aa69b',
-  from: '573182739717'
+  body: 'Calle 24',
+  from: '573103945349'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573103945349@s.whatsapp.net',
+    fromMe: false,
+    id: '4AC9EC24176F6EA7C8A655DE38162B28',
+    participant: undefined
+  },
+  messageTimestamp: 1747923655,
+  pushName: '𝕁𝕠𝕤é 𝔸𝕝𝕗𝕣𝕖𝕕𝕠',
+  broadcast: false,
+  message: Message {
+    conversation: 'Efectivo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Efectivo',
+  from: '573103945349'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_d5c21dcc-d862-47a5-8e65-6b2eb90009f7',
-  keyword: 'key_563d4c58-45f0-4dce-b87b-aeca8aa5bcff',
-  answer: '✅ ¡Gracias! Hemos recibido tu comprobante de transferencia correctamente.',
+  ref: 'ans_829e6b0f-f22c-4221-9574-377d8cf4db8a',
+  keyword: 'key_a1c5daf9-bfc7-4da4-9dc1-8aa0bd39b339',
+  answer: '✅ ¡Gracias! Hemos recibido que pagaras con efectivo.',
   options: {
     media: null,
     buttons: [],
@@ -866,31 +300,134 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'a302b24617ad33e256af0207219a3cfa'
+  refSerialize: '4a4c7bbbf1c56a0e71fd77de9f2c71b8'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573182739717@s.whatsapp.net',
+    remoteJid: '573103945349@s.whatsapp.net',
     fromMe: false,
-    id: 'A212402ED6E6914435D0CD142AAE4E60',
+    id: 'FCA5EB07F8B558A490E0F380C6EA4AB3',
     participant: undefined
   },
-  messageTimestamp: 1747619672,
-  pushName: 'Samuel',
+  messageTimestamp: 1747923679,
+  pushName: '𝕁𝕠𝕤é 𝔸𝕝𝕗𝕣𝕖𝕕𝕠',
   broadcast: false,
   message: Message {
-    protocolMessage: ProtocolMessage {
-      key: [MessageKey],
-      type: 4,
-      ephemeralExpiration: 86400,
-      ephemeralSettingTimestamp: [Long],
-      disappearingMode: [DisappearingMode]
-    },
+    conversation: 'Ok',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
     }
   },
-  body: '',
-  from: '573182739717'
+  body: 'Ok',
+  from: '573103945349'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_35db5dad-1393-45d6-85e1-811ec35653be',
+  keyword: 'key_b6aed57f-022f-4588-ba85-5fffb0c138d2',
+  answer: '🙌 Hola bienvenido a este restaurante llamado *fastfood* mi nombre es michell estoy diseñada para procesar tu pedido',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '6cb2d58e13c99b2b54b4684815fd4d7e'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_5d2e2f2b-cf64-4cf9-85d0-1edaabee428e',
+  keyword: 'ans_35db5dad-1393-45d6-85e1-811ec35653be',
+  answer: '🍔 ¿Que deseas comer?, todos los domicilios cuestan 3 dolares dentro de la zona urbana',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '4bb127fec45f13b10dc97f9884db3946'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_763086b5-0646-4efc-a40e-ecbc5eedf916',
+  keyword: 'ans_5d2e2f2b-cf64-4cf9-85d0-1edaabee428e',
+  answer: '👉 *hamburguesa*: Deliciosa hamburguesa con papas fritas y gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'e10cabd5b0f7454fb02560949478ab9d'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_edc15949-7d0f-4979-a000-fe335fbf56b5',
+  keyword: 'ans_763086b5-0646-4efc-a40e-ecbc5eedf916',
+  answer: '👉 *arepa rellena*:  deliciosa arepa rellena de pollo y carne con queso mas gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '4758b296fbbd4b64f2dd6b042b762438'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0c0d17ba-52ea-48bb-a493-b6646a88a21a',
+  keyword: 'ans_edc15949-7d0f-4979-a000-fe335fbf56b5',
+  answer: '👉 *asado*: Delicioso asado de carne de res con papas a la francesa con una gaseosa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a297eda3adb283601206eb6e1b1e0152'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_11d94783-c9d9-41f1-b511-ac1a06ab08e0',
+  keyword: 'ans_0c0d17ba-52ea-48bb-a493-b6646a88a21a',
+  answer: '👉 si deseas pedir escribe *pedir*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'c0e580052c316d1c8b5be726c61fff53'
 }

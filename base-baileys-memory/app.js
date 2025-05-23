@@ -36,8 +36,20 @@ const flowAsesor = addKeyword(EVENTS.ACTION)
 const flowMenu = addKeyword(EVENTS.ACTION)
     .addAnswer('este es la carta de nuestro menu, https://drive.google.com/uc?export=download&id=1Cyd7PWnJMQVneV4dbxmcQaP90ak-Twho');
 
-
-
+//validar pedido-----------------------
+const flowPedido = addKeyword(EVENTS.ACTION)
+    .addAnswer('Digite el pedido que desea realizar, cantidad y nombre del producto (ejemplo: 2 hamburguesas):', 
+    { capture: true }, 
+    async (ctx, { fallBack, flowDynamic, gotoFlow }) => {
+        const pedido = ctx.body.trim();
+        // Validar: al menos un número y un texto
+        if (!pedido || !/^\d+\s+[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$/.test(pedido)) {
+            return fallBack('❌ Pedido no válido. Por favor, escribe la cantidad y el nombre del producto. Ejemplo: 2 hamburguesas');
+        }
+        await flowDynamic(`✅ Pedido registrado: ${pedido}`);
+        // Aquí puedes continuar con el siguiente flujo, por ejemplo:
+        return gotoFlow(flowNombre);
+    });
     //validar el nombre----------------------------
 const flowNombre = addKeyword(EVENTS.ACTION)
     .addAnswer('Digite su nombre por favor:', { capture: true }, async (ctx, { fallBack, flowDynamic, gotoFlow}) => {
@@ -106,7 +118,7 @@ const menuFlow =  addKeyword(['pedir', 'pedi', 'Pedir','PEDIR']).addAnswer(
             case '1':
                 return gotoFlow(flowMenu);
             case '2':
-                return gotoFlow(flowNombre);
+                return gotoFlow(flowPedido);
             case '3':
                 return gotoFlow(flowConsulta);
             case '4':
@@ -121,7 +133,7 @@ const menuFlow =  addKeyword(['pedir', 'pedi', 'Pedir','PEDIR']).addAnswer(
 
 const main = async () => {
     const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowWelcome, menuFlow, flowMenu, flowNombre, flowDireccion,flowFoto,flowConsulta, flowVoice, ,flowEfectivo, flowAsesor])
+    const adapterFlow = createFlow([flowWelcome, menuFlow, flowMenu, flowNombre, flowDireccion,flowFoto,flowConsulta, flowVoice, ,flowEfectivo, flowAsesor, flowPedido])
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({
